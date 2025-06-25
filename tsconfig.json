@@ -1,0 +1,27 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@screens/*": ["src/screens/*"],
+      "@services/*": ["src/services/*"],
+      "@utils/*": ["src/utils/*"],
+      "@types/*": ["src/types/*"],
+      "@constants/*": ["src/constants/*"],
+      "@assets/*": ["src/assets/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*",
+    "__tests__/**/*",
+    "index.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "android",
+    "ios"
+  ]
+}
