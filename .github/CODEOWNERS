@@ -1,0 +1,33 @@
+# Global ownership
+* @gastonmira
+
+# Source code
+/src/ @gastonmira
+
+# Configuration files
+*.json @gastonmira
+*.js @gastonmira
+*.ts @gastonmira
+tsconfig.json @gastonmira
+package.json @gastonmira
+package-lock.json @gastonmira
+
+# GitHub workflows and settings
+/.github/ @gastonmira
+
+# Documentation
+*.md @gastonmira
+/docs/ @gastonmira
+README.md @gastonmira
+claude.md @gastonmira
+
+# Linting and formatting
+.eslintrc.js @gastonmira
+.prettierrc.js @gastonmira
+.gitignore @gastonmira
+
+# Build and deployment
+/android/ @gastonmira
+/ios/ @gastonmira
+metro.config.js @gastonmira
+babel.config.js @gastonmira
